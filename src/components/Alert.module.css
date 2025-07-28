@@ -1,0 +1,16 @@
+/* src/components/Alert.module.css */
+
+.alert {
+  padding: 12px 16px;
+  border-radius: 4px;
+  color: white;
+  background-color: gray;
+}
+
+.success {
+  background-color: green;
+}
+
+.error {
+  background-color: red;
+}
