@@ -7,7 +7,7 @@ interface MovieGridProps {
 }
 
 export const MovieGrid = ({ movies, onSelect }: MovieGridProps) => {
-  if (movies.length === 0) return null; // 👈 не рендеримо нічого, якщо масив порожній
+  if (movies.length === 0) return null;
 
   return (
     <ul className={css.grid}>
